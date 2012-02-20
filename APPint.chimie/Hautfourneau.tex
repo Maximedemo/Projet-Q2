@@ -18,7 +18,7 @@
 \usepackage{wrapfig}
 \usepackage{etex}%chimie
 \usepackage{m-pictex,m-ch-en}%chimie
-\author{Groupe 118.5}
+\author{\textit{Groupe 118.5} \\Opsomer Laurent\\ Schiltz Félicien\\Vanderhofstadt Quentin\\Derval Guillaume\\Losseau Arthur\\De Mol Maxime}
 \title{APP: Haut-fourneau}
 \date{\today}
 %\thispagestyle{empty}
@@ -26,9 +26,13 @@
 \begin{document}
 
 \maketitle
+\tableofcontents
 
 \chapter{Le Haut-fourneau}
-\textbf{Quantités de départ:}\\
+
+Dans le cadre de l'APP interdisciplinaire de la semaine 4, il nous a été demandé, étudiants de l'EPL, de nous pencher sur le procédé de fabrication de fonte de fer utilisée entre autre pour les alliages de fer nécessaire à la fabrication d'inductances compactes. Pour bien comprendre le fonctionnement d'un haut-fourneau en métallurgie, qui sert justement à l'obtention de fonte de fer à partir du minerai de fer, il nous est demander de calculer la masse de coke nécessaire pour le traitement d'une tonne de minerai de fer ainsi que de déterminer la composition chimique de la fumée dégagé lors du procédé.\\
+
+\section{Quantités de départ}
 
 1 tonne de minerai de fer composé de:
 \begin{itemize}
@@ -48,7 +52,7 @@ Une certaine quantité de coke (à déterminer):
 \end{itemize}
 On sait que 52,5\% de masse de cette coke va être utilisé exclusivement à fournir de la chaleur.\\
 
-\textbf{Quantités à l'arrivé:}\\
+\section{Quantités à l'arrivé}
 
 Fonte:
 \begin{itemize}
@@ -68,9 +72,9 @@ Fumée:
 \item{\chemical{CO} et \chemical{CO_2} en nombre de mole égale}\\
 \end{itemize}
 
-\textbf{Réactions chimiques ayants lieu dans le haut-fourneau:}\\
+\section{Réactions chimiques ayants lieu dans le haut-fourneau}
 
-\underline{Formation de \chemical{CO_2} et \chemical{CO} à partir du coke et de l'air injecté}
+\subsection{Réactions du coke}
 
 \begin{center}
 \[
@@ -86,7 +90,7 @@ Fumée:
 \]
 \end{center}
 
-\underline{Formation de la fonte}
+\subsection{Formation de la fonte}
 \begin{center}
 \[
 \chemical{Fe_2O_3}\chemical{+}\chemical{3CO}
@@ -115,7 +119,7 @@ La fonte et constitué de 90 à 95\% de fer ainsi que de carbone (provenant de l
 \]
 \end{center}
 
-\underline{Formation du laitier}
+\subsection{Formation du laitier}
 \begin{center}
 \[
 \chemical{CaCO_3}
@@ -143,6 +147,19 @@ Une partie du fer (\chemical{FeO}) et perdu dans le laitier en se combinant à d
 \chemical{FeSiO_3}
 \]
 \end{center}
+
+\section{Quantité de coke}
+
+Maintenant que nous sommes en possession de toutes les valeurs numériques relatives aux quantités de toutes les matières qui se retrouvent dans le haut-fourneau, nous pouvons commencer à calculer de coke nécessaire au traitement d'une tonne de minerai de fer. Grâce aux équations chimiques des réactions qui s'opèrent dans le fourneau, nous pouvons voir que le carbone présent dans le coke sera "utilisé à 4 "endroits" différents: la formation du \chemical{Fe}, à partir, de \chemical{Fe_2O_3}, de \chemical{FeO}, dans la fonte elle même, et va être utilisé dans la formation de \chemical{Si}\chemical{+}\chemical{2CO_2}.\\
+
+Dans le minerai de fer, on retrouve 380kg de \chemical{Fe_2O_3} ce qui correspond à 2375 moles, ainsi que 140kg de \chemical{FeO} ce qui correspond à 1944,5 moles. On est donc en présence de 6694,5 moles de \chemical{Fe}. On sait que 0,6\% de la masse de fer (exclusivement sous forme de \chemical{FeO})présent dans le minerai ne va pas réagir avec du \chemical{CO} mais avec de l'oxyde de silice, ce qui correspond à 40,2 moles de \chemical{Fe} et donc à 40,2 moles de \chemical{FeO}.\\
+
+Pour obtenir du \chemical{Fe} à partir de 2375 moles de \chemical{Fe_2O_3} 7125 moles de carbone sont nécessaires. L'obtention de fer à partir des 1904,3 moles de \chemical{FeO} va demander, quant à elle, 1904,2 moles de carbone.
+
+Pour déterminer la quantité de carbone utilisé pour la silice, et la quantité qui va se retrouver dans la fonte, nous allons avoir besoin de la masse de celle-ci. Nous savons qu'elle sera composé à 92,9\% de fer, et que cette quantité de fer est de 6654,3 moles, soit 372,641 kg de fer. Il y a donc dans la fonte 2039 moles de carbone et 143,25 moles de silice. Chaque mole de silice demande 2 moles de carbone pour sa formation à partir de \chemical{SiO_2}, ce qui correspond donc pour la totalité de silice dans la fonte à 286,5 moles de carbone.
+
+
+ 
 
 
 

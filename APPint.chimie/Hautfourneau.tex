@@ -16,6 +16,8 @@
 \usepackage{here}
 \usepackage[final]{pdfpages}
 \usepackage{wrapfig}
+\usepackage{etex}%chimie
+\usepackage{m-pictex,m-ch-en}%chimie
 \author{Groupe 118.5}
 \title{APP: Haut-fourneau}
 \date{\today}
@@ -24,5 +26,45 @@
 \begin{document}
 
 \maketitle
+
+\textbf{Quantités de départ:}\\
+
+1 tonne de minerai de fer composé de:
+\begin{itemize}
+\item{38\% de \chemical{Fe_2O_3}}
+\item{14\% de \chemical{FeO}}
+\item{24\% de \chemical{Si}}
+\item{10\% de \chemical{CaCO_3}}
+\item{4\% de \chemical{Al_2O_3}}
+\item{10\% de \chemical{H_2O}}\\
+\end{itemize}
+
+
+Une certaine quantité de coke (à déterminer):
+\begin{itemize}
+\item{90\% de \chemical{C}}
+\item{10\% d'impuretés qui n'entre pas en compte dans nos équations}
+\end{itemize}
+On sait que 52,5\% de masse de cette coke va être utilisé exclusivement à fournir de la chaleur.\\
+
+\textbf{Quantités à l'arrivé:}\\
+
+Fonte:
+\begin{itemize}
+\item{92,9\% de \chemical{Fe}}
+\item{6,1\% de \chemical{C}}
+\item{1\% de \chemical{Si}}\\
+\end{itemize}
+
+Laitier:
+\begin{itemize}
+\item{0,6\% de \chemical{FeSiO_3}}
+\item{99,4\% de \chemical{CaAl_2O_4}, \chemical{CaSiO_3}}\\
+\end{itemize}
+
+Fumée:
+\begin{itemize}
+\item{\chemical{CO} et \chemical{CO_2} en nombre de mole égale}
+\end{itemize}
 
 \end{document}
